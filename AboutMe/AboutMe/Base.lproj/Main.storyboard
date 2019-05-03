@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gMJ-IE-fga">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Biography-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KYm-fB-0Jd">
+                                <rect key="frame" x="8" y="97.5" width="359" height="472"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yemo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Rv9-Wu-xs4">
+                                        <rect key="frame" x="0.0" y="0.0" width="359" height="382"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7M-g5-K7h">
+                                        <rect key="frame" x="161.5" y="382" width="36" height="29"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I was Born in Washington D.C on April 3, 2019. I am also from Beninese and Senegalese decent" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jiG-Kn-n4y">
+                                        <rect key="frame" x="0.0" y="411" width="359" height="61"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.55725859740000006" blue="0.36425617339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KYm-fB-0Jd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2xN-OR-brN"/>
+                            <constraint firstAttribute="trailing" secondItem="KYm-fB-0Jd" secondAttribute="trailing" constant="8" id="4CN-WJ-0VO"/>
+                            <constraint firstItem="KYm-fB-0Jd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="4Pg-Zp-Ypv"/>
+                            <constraint firstItem="KYm-fB-0Jd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h4J-SK-nEN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Biography" id="e2x-YC-Y5n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-543.20000000000005" y="53.523238380809602"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="boV-q0-6by">
+            <objects>
+                <viewController id="G2Q-5T-oam" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LbE-2l-l0K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="186" translatesAutoresizingMaskIntoConstraints="NO" id="cje-gy-6In">
+                                <rect key="frame" x="8" y="205.5" width="359" height="256"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDp-I0-Fxk">
+                                        <rect key="frame" x="136" y="0.0" width="87" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I currently play soccer and also love riding motocross" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wy8-3W-T9S">
+                                        <rect key="frame" x="41" y="215" width="277" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15791702939999999" green="0.54847674639999999" blue="0.66762467619999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cje-gy-6In" firstAttribute="leading" secondItem="LbE-2l-l0K" secondAttribute="leading" constant="8" id="Aa7-W8-KCH"/>
+                            <constraint firstAttribute="trailing" secondItem="cje-gy-6In" secondAttribute="trailing" constant="8" id="EJe-TG-Fm0"/>
+                            <constraint firstItem="cje-gy-6In" firstAttribute="centerY" secondItem="LbE-2l-l0K" secondAttribute="centerY" id="PPf-1e-v65"/>
+                            <constraint firstItem="cje-gy-6In" firstAttribute="centerX" secondItem="LbE-2l-l0K" secondAttribute="centerX" id="Urk-Z0-0cZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0nm-gk-jXE"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" id="0zy-Un-mZg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gWZ-mz-U0I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="134"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="WEZ-jB-TxM">
+            <objects>
+                <viewController id="JSV-ej-h73" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iId-ta-2TB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="kHH-mg-rRG">
+                                <rect key="frame" x="8" y="248.5" width="359" height="170.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zsh-LL-em2">
+                                        <rect key="frame" x="0.0" y="0.0" width="67" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QJe-Im-lEQ">
+                                        <rect key="frame" x="0.0" y="89" width="359" height="81.5"/>
+                                        <string key="text">I am the second child of Malick and Erinna Dia. My sister is called Malika. My mother is originally from Benin, and my father from Senegal,</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="kHH-mg-rRG" secondAttribute="trailing" constant="8" id="0oS-GC-AlW"/>
+                            <constraint firstItem="kHH-mg-rRG" firstAttribute="centerX" secondItem="iId-ta-2TB" secondAttribute="centerX" id="DwG-17-EHL"/>
+                            <constraint firstItem="kHH-mg-rRG" firstAttribute="centerY" secondItem="iId-ta-2TB" secondAttribute="centerY" id="hfP-aw-W8o"/>
+                            <constraint firstItem="kHH-mg-rRG" firstAttribute="leading" secondItem="iId-ta-2TB" secondAttribute="leading" constant="8" id="uGj-5G-xIb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Mfu-vP-69x"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" id="lcU-3j-tkL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rbc-w4-JpM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1688.8" y="-18.440779610194905"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="pqh-cx-WZb">
+            <objects>
+                <viewController id="BFH-fu-b9P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V9V-zF-g8C">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Tww-A5-0vd"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="nAR-sF-nuM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7pb-Ji-uv0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="gKC-Y5-B0u">
+            <objects>
+                <viewController id="FRQ-mB-ML3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ttw-b9-fh6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="cw5-8D-ZGX"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="kOH-RR-ebk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V94-3Y-PP0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GgW-mm-QUr">
+            <objects>
+                <tabBarController id="gMJ-IE-fga" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="HZd-uV-bJi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="eZ8-Oz-mzy"/>
+                        <segue destination="G2Q-5T-oam" kind="relationship" relationship="viewControllers" id="FHf-x4-l4k"/>
+                        <segue destination="JSV-ej-h73" kind="relationship" relationship="viewControllers" id="d37-8f-mJA"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gkU-Ta-xSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="yemo.png" width="381" height="382"/>
+    </resources>
+</document>
